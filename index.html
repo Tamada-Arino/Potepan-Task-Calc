@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>電卓</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="main-contain">
+            <table>
+                <tr>
+                    <td colspan="4"><p id="result"></p></td>
+                </tr>
+                <tr>
+                    <td><button onclick="clickbutton('7','number')">7</button></td>
+                    <td><button onclick="clickbutton('8','number')">8</button></td>
+                    <td><button onclick="clickbutton('9','number')">9</button></td>
+                    <td><button onclick="clickbutton('+','operator')">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="clickbutton('4','number')">4</button></td>
+                    <td><button onclick="clickbutton('5','number')">5</button></td>
+                    <td><button onclick="clickbutton('6','number')">6</button></td>
+                    <td><button onclick="clickbutton('-','operator')">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="clickbutton('1','number')">1</button></td>
+                    <td><button onclick="clickbutton('2','number')">2</button></td>
+                    <td><button onclick="clickbutton('3','number')">3</button></td>
+                    <td><button onclick="clickbutton('*','operator')">*</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="clickbutton('0','number')">0</button></td>
+                    <td><button onclick="clickbutton('00','number')">00</button></td>
+                    <td><button onclick="clickbutton('.','dot')">.</button></td>
+                    <td><button onclick="clickbutton('/','operator')">/</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button id="all-clear">AC</button></td>
+                    <td colspan="2"><button id="equal">=</button></td>
+                </tr>
+            </table>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 1.25rem;
+}
+td{
+    width:100px;
+}
+.main-contain{
+    width:fit-content;
+    margin-left: 20px;
+}
+#result{
+    width:100%;
+    font-size: 2rem;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 5px;
+    padding:10px 0;
+    text-align: right;
+}
