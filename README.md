@@ -1,1 +1,0 @@
-# Potepan-Task-Calc
